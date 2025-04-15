@@ -1,0 +1,21 @@
+{
+  "name": "devops-user",
+  "version": "1.0.0",
+  "description": "user service for devops testing",
+  "homepage": "https://github.com/infraxity/devops-user#readme",
+  "bugs": {
+    "url": "https://github.com/infraxity/devops-user/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infraxity/devops-user.git"
+  },
+  "license": "ISC",
+  "author": "Sushant Singh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,16 @@
+name: Run Tests
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Run Tests
+        run: |
+          echo "Running tests..."
+          # Insert your test commands here
